@@ -41,7 +41,7 @@
 }
 
 .hover {
-  background-color: #ffffbb;
+  background-color: #D2E3FC;
 }
 
 .reportTable {
@@ -55,10 +55,12 @@ table.reportTable th {
   border: 1px solid #CCCCCC; 
   border-bottom: 1px solid #000000 !important;
   padding: 5px;
+  text-align: center;
 }
 
 table.reportTable td {
   vertical-align: super;
+  text-align:center;
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
@@ -68,6 +70,7 @@ table.reportTable td {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
+  text-align:center;
 }
 
 .indexCell.transposed {
@@ -75,7 +78,8 @@ table.reportTable td {
 }
 
 .indexCell.transposed.merged {
-  background-color: #ffffff !important;
+  /*background-color: #ffffff !important;*/
+  background-color: #174EA6 !important
 }
 
 .rowCell {
@@ -84,15 +88,15 @@ table.reportTable td {
 }
 
 .nonNumeric {
-  text-align: left;
+  text-align: center;
 }
 
 .numeric {
-  text-align: right;
+  text-align: center;
 }
 
 .negative {
-  color: red;
+  color: #A50E0E;
 }
 
 .estimate {
@@ -123,7 +127,3 @@ table.reportTable td {
   font-family: Open Sans,Helvetica,Arial,sans-serif;
   margin: 4px;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
