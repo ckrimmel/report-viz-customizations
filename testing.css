@@ -54,6 +54,8 @@
 table.reportTable th {
   border: 1px solid #CCCCCC; 
   border-bottom: 1px solid #000000 !important;
+  background-color: #174EA6;
+  color: #ffffff;
   padding: 5px;
   text-align: center;
 }
