@@ -57,12 +57,12 @@ table.reportTable th {
   background-color: #174EA6;
   color: #ffffff;
   padding: 5px;
-  text-align: center;
+  text-align: center !important;
 }
 
 table.reportTable td {
   vertical-align: super;
-  text-align:center;
+  text-align: center !important;
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
@@ -72,7 +72,7 @@ table.reportTable td {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
-  text-align:center;
+  text-align: center !important;
 }
 
 .indexCell.transposed {
@@ -80,7 +80,6 @@ table.reportTable td {
 }
 
 .indexCell.transposed.merged {
-  /*background-color: #ffffff !important;*/
   background-color: #174EA6 !important
 }
 
@@ -90,11 +89,11 @@ table.reportTable td {
 }
 
 .nonNumeric {
-  text-align: center;
+  text-align: center !important;
 }
 
 .numeric {
-  text-align: center;
+  text-align: center !important;
 }
 
 .negative {
