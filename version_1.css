@@ -1,5 +1,4 @@
-<style>
-  #tooltip {
+#tooltip {
     position: absolute;
     width: auto;
     height: auto;
@@ -74,6 +73,8 @@
   /* Add customization here  */
 
 }
+
+tr:hover td:hover { background-color: #D2E3FC; }
 
 .left {
   text-align: left;
