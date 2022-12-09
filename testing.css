@@ -54,7 +54,7 @@
 table.reportTable th {
   border: 1px solid #CCCCCC; 
   /*border-bottom: 1px solid #000000 !important;*/
-  border-bottom: 0px solid #174EA6;
+  border-bottom: 0px solid #174EA6 !important;
   background-color: #174EA6;
   color: #ffffff;
   padding: 5px;
@@ -70,7 +70,7 @@ table.reportTable td {
 }
 
 .headerCell {
-  border-bottom: 1px solid #000000 !important;
+  border-bottom: 0px solid #174EA6 !important;
   font-weight: bold;
   padding: 5px;
   text-align: center !important;
